@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A92B7EC2B147BE5001C7122 /* SmallBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92B7EB2B147BE5001C7122 /* SmallBoxApp.swift */; };
+		4A92B7EE2B147BE5001C7122 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92B7ED2B147BE5001C7122 /* ContentView.swift */; };
+		4A92B7F02B147BE5001C7122 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92B7EF2B147BE5001C7122 /* Item.swift */; };
+		4A92B7F22B147BE6001C7122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A92B7F12B147BE6001C7122 /* Assets.xcassets */; };
+		4A92B7F52B147BE6001C7122 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A92B7F42B147BE6001C7122 /* Preview Assets.xcassets */; };
+		4A92B8002B147BE6001C7122 /* SmallBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92B7FF2B147BE6001C7122 /* SmallBoxTests.swift */; };
+		4A92B80A2B147BE6001C7122 /* SmallBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92B8092B147BE6001C7122 /* SmallBoxUITests.swift */; };
+		4A92B80C2B147BE6001C7122 /* SmallBoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92B80B2B147BE6001C7122 /* SmallBoxUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A92B7FC2B147BE6001C7122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A92B7E02B147BE5001C7122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A92B7E72B147BE5001C7122;
+			remoteInfo = SmallBox;
+		};
+		4A92B8062B147BE6001C7122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A92B7E02B147BE5001C7122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A92B7E72B147BE5001C7122;
+			remoteInfo = SmallBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A92B7E82B147BE5001C7122 /* SmallBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A92B7EB2B147BE5001C7122 /* SmallBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallBoxApp.swift; sourceTree = "<group>"; };
+		4A92B7ED2B147BE5001C7122 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A92B7EF2B147BE5001C7122 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		4A92B7F12B147BE6001C7122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A92B7F42B147BE6001C7122 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A92B7F62B147BE6001C7122 /* SmallBox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmallBox.entitlements; sourceTree = "<group>"; };
+		4A92B7FB2B147BE6001C7122 /* SmallBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmallBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A92B7FF2B147BE6001C7122 /* SmallBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallBoxTests.swift; sourceTree = "<group>"; };
+		4A92B8052B147BE6001C7122 /* SmallBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmallBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A92B8092B147BE6001C7122 /* SmallBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallBoxUITests.swift; sourceTree = "<group>"; };
+		4A92B80B2B147BE6001C7122 /* SmallBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A92B7E52B147BE5001C7122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A92B7F82B147BE6001C7122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A92B8022B147BE6001C7122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A92B7DF2B147BE5001C7122 = {
+			isa = PBXGroup;
+			children = (
+				4A92B7EA2B147BE5001C7122 /* SmallBox */,
+				4A92B7FE2B147BE6001C7122 /* SmallBoxTests */,
+				4A92B8082B147BE6001C7122 /* SmallBoxUITests */,
+				4A92B7E92B147BE5001C7122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A92B7E92B147BE5001C7122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A92B7E82B147BE5001C7122 /* SmallBox.app */,
+				4A92B7FB2B147BE6001C7122 /* SmallBoxTests.xctest */,
+				4A92B8052B147BE6001C7122 /* SmallBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A92B7EA2B147BE5001C7122 /* SmallBox */ = {
+			isa = PBXGroup;
+			children = (
+				4A92B7EB2B147BE5001C7122 /* SmallBoxApp.swift */,
+				4A92B7ED2B147BE5001C7122 /* ContentView.swift */,
+				4A92B7EF2B147BE5001C7122 /* Item.swift */,
+				4A92B7F12B147BE6001C7122 /* Assets.xcassets */,
+				4A92B7F62B147BE6001C7122 /* SmallBox.entitlements */,
+				4A92B7F32B147BE6001C7122 /* Preview Content */,
+			);
+			path = SmallBox;
+			sourceTree = "<group>";
+		};
+		4A92B7F32B147BE6001C7122 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4A92B7F42B147BE6001C7122 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A92B7FE2B147BE6001C7122 /* SmallBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A92B7FF2B147BE6001C7122 /* SmallBoxTests.swift */,
+			);
+			path = SmallBoxTests;
+			sourceTree = "<group>";
+		};
+		4A92B8082B147BE6001C7122 /* SmallBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A92B8092B147BE6001C7122 /* SmallBoxUITests.swift */,
+				4A92B80B2B147BE6001C7122 /* SmallBoxUITestsLaunchTests.swift */,
+			);
+			path = SmallBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A92B7E72B147BE5001C7122 /* SmallBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A92B80F2B147BE6001C7122 /* Build configuration list for PBXNativeTarget "SmallBox" */;
+			buildPhases = (
+				4A92B7E42B147BE5001C7122 /* Sources */,
+				4A92B7E52B147BE5001C7122 /* Frameworks */,
+				4A92B7E62B147BE5001C7122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmallBox;
+			productName = SmallBox;
+			productReference = 4A92B7E82B147BE5001C7122 /* SmallBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A92B7FA2B147BE6001C7122 /* SmallBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A92B8122B147BE6001C7122 /* Build configuration list for PBXNativeTarget "SmallBoxTests" */;
+			buildPhases = (
+				4A92B7F72B147BE6001C7122 /* Sources */,
+				4A92B7F82B147BE6001C7122 /* Frameworks */,
+				4A92B7F92B147BE6001C7122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A92B7FD2B147BE6001C7122 /* PBXTargetDependency */,
+			);
+			name = SmallBoxTests;
+			productName = SmallBoxTests;
+			productReference = 4A92B7FB2B147BE6001C7122 /* SmallBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A92B8042B147BE6001C7122 /* SmallBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A92B8152B147BE6001C7122 /* Build configuration list for PBXNativeTarget "SmallBoxUITests" */;
+			buildPhases = (
+				4A92B8012B147BE6001C7122 /* Sources */,
+				4A92B8022B147BE6001C7122 /* Frameworks */,
+				4A92B8032B147BE6001C7122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A92B8072B147BE6001C7122 /* PBXTargetDependency */,
+			);
+			name = SmallBoxUITests;
+			productName = SmallBoxUITests;
+			productReference = 4A92B8052B147BE6001C7122 /* SmallBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A92B7E02B147BE5001C7122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					4A92B7E72B147BE5001C7122 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					4A92B7FA2B147BE6001C7122 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4A92B7E72B147BE5001C7122;
+					};
+					4A92B8042B147BE6001C7122 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4A92B7E72B147BE5001C7122;
+					};
+				};
+			};
+			buildConfigurationList = 4A92B7E32B147BE5001C7122 /* Build configuration list for PBXProject "SmallBox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A92B7DF2B147BE5001C7122;
+			productRefGroup = 4A92B7E92B147BE5001C7122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A92B7E72B147BE5001C7122 /* SmallBox */,
+				4A92B7FA2B147BE6001C7122 /* SmallBoxTests */,
+				4A92B8042B147BE6001C7122 /* SmallBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A92B7E62B147BE5001C7122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A92B7F52B147BE6001C7122 /* Preview Assets.xcassets in Resources */,
+				4A92B7F22B147BE6001C7122 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A92B7F92B147BE6001C7122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A92B8032B147BE6001C7122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A92B7E42B147BE5001C7122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A92B7EE2B147BE5001C7122 /* ContentView.swift in Sources */,
+				4A92B7F02B147BE5001C7122 /* Item.swift in Sources */,
+				4A92B7EC2B147BE5001C7122 /* SmallBoxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A92B7F72B147BE6001C7122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A92B8002B147BE6001C7122 /* SmallBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A92B8012B147BE6001C7122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A92B80C2B147BE6001C7122 /* SmallBoxUITestsLaunchTests.swift in Sources */,
+				4A92B80A2B147BE6001C7122 /* SmallBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A92B7FD2B147BE6001C7122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A92B7E72B147BE5001C7122 /* SmallBox */;
+			targetProxy = 4A92B7FC2B147BE6001C7122 /* PBXContainerItemProxy */;
+		};
+		4A92B8072B147BE6001C7122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A92B7E72B147BE5001C7122 /* SmallBox */;
+			targetProxy = 4A92B8062B147BE6001C7122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A92B80D2B147BE6001C7122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A92B80E2B147BE6001C7122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4A92B8102B147BE6001C7122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmallBox/SmallBox.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmallBox/Preview Content\"";
+				DEVELOPMENT_TEAM = 9R7T8F4A6S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = seolbotdae.SmallBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4A92B8112B147BE6001C7122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmallBox/SmallBox.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmallBox/Preview Content\"";
+				DEVELOPMENT_TEAM = 9R7T8F4A6S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = seolbotdae.SmallBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4A92B8132B147BE6001C7122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R7T8F4A6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = seolbotdae.SmallBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmallBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmallBox";
+			};
+			name = Debug;
+		};
+		4A92B8142B147BE6001C7122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R7T8F4A6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = seolbotdae.SmallBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmallBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmallBox";
+			};
+			name = Release;
+		};
+		4A92B8162B147BE6001C7122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R7T8F4A6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = seolbotdae.SmallBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SmallBox;
+			};
+			name = Debug;
+		};
+		4A92B8172B147BE6001C7122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R7T8F4A6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = seolbotdae.SmallBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SmallBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A92B7E32B147BE5001C7122 /* Build configuration list for PBXProject "SmallBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A92B80D2B147BE6001C7122 /* Debug */,
+				4A92B80E2B147BE6001C7122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A92B80F2B147BE6001C7122 /* Build configuration list for PBXNativeTarget "SmallBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A92B8102B147BE6001C7122 /* Debug */,
+				4A92B8112B147BE6001C7122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A92B8122B147BE6001C7122 /* Build configuration list for PBXNativeTarget "SmallBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A92B8132B147BE6001C7122 /* Debug */,
+				4A92B8142B147BE6001C7122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A92B8152B147BE6001C7122 /* Build configuration list for PBXNativeTarget "SmallBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A92B8162B147BE6001C7122 /* Debug */,
+				4A92B8172B147BE6001C7122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A92B7E02B147BE5001C7122 /* Project object */;
+}
